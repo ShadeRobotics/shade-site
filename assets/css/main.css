@@ -1,0 +1,665 @@
+#hero {
+  background-image: url("../img/hero-background.svg");
+  background-size: cover;
+  padding-bottom: 175px;
+  margin-top: 136px;
+}
+
+#hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+#hero .container h1 {
+  font-family: "TT Commons Bold";
+  font-size: 64px;
+}
+
+#hero .container h2 {
+  max-width: 498px;
+  font-family: "TT Commons Medium";
+  color: #747792;
+  font-size: 18px;
+  margin-top: 22px;
+}
+
+#hero .container button {
+  width: 113px;
+  height: 41px;
+  background: -webkit-gradient(linear, left top, right top, from(#8e4aff), to(#db5fff));
+  background: linear-gradient(90deg, #8e4aff 0%, #db5fff 100%);
+  border-radius: 4px;
+  font-family: "TT Commons DemiBold";
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+#hero .container h3 {
+  font-family: "TT Commons DemiBold";
+  color: #747792;
+  font-size: 14px;
+  margin-top: 13px;
+}
+
+#hero .container img {
+  max-width: 100%;
+  -webkit-filter: drop-shadow(0px 11px 27px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 11px 27px rgba(0, 0, 0, 0.25));
+}
+
+#sites {
+  margin-top: 100px;
+}
+
+#sites .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#sites .container h1 {
+  font-family: "TT Commons DemiBold";
+  font-size: 32px;
+}
+
+#sites .container h2 {
+  margin-top: 3px;
+  font-family: "TT Commons Medium";
+  color: #747792;
+  font-size: 18px;
+}
+
+#sites .container .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+  gap: 65px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 50px auto 0 auto;
+}
+
+#sites .container .grid-container img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#features {
+  margin-top: 175px;
+}
+
+#features .container h1 {
+  font-family: "TT Commons DemiBold";
+  font-size: 32px;
+}
+
+#features .container h2 {
+  font-family: "TT Commons Medium";
+  color: #747792;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+#features .container .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(475px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
+  gap: 14px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#features .container .grid-container div {
+  height: 229px;
+  background: #111433;
+  padding: 30px 40px;
+}
+
+#features .container .grid-container div:nth-of-type(1) {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#features .container .grid-container div:nth-of-type(2) {
+  border-radius: 0px 10px 10px 0px;
+}
+
+#features .container .grid-container div:nth-of-type(3) {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#features .container .grid-container div:nth-of-type(4) {
+  border-radius: 0px 10px 10px 0px;
+}
+
+#features .container .grid-container div h3 {
+  font-family: "TT Commons DemiBold";
+  font-size: 21px;
+  margin-top: 15px;
+}
+
+#features .container .grid-container div p {
+  font-family: "TT Commons Medium";
+  color: #747792;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+#interface {
+  background-image: url("../img/interface-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  padding: 88px 0;
+  margin-top: 130px;
+}
+
+#interface .container {
+  max-width: 1300px;
+  position: relative;
+}
+
+#interface .container .divider {
+  width: 1px;
+  height: 332px;
+  background: #1f2346;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#interface .container .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#interface .container .flex-container .left h1 {
+  font-family: "TT Commons DemiBold";
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+#interface .container .flex-container .left h2 {
+  max-width: 443px;
+  font-family: "TT Commons Medium";
+  color: #747792;
+  font-size: 18px;
+  margin-top: 13px;
+}
+
+#interface .container .flex-container .divider {
+  display: none;
+}
+
+#interface .container .flex-container .right img {
+  -webkit-transform: translateX(56%);
+          transform: translateX(56%);
+}
+
+#groups {
+  margin-top: 130px;
+}
+
+#groups .container {
+  max-width: 1176px;
+}
+
+#groups .container .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#groups .container .flex-container .left img {
+  max-width: 100%;
+}
+
+#groups .container .flex-container .divider {
+  width: 2px;
+  height: 333px;
+  background: #1f2346;
+}
+
+#groups .container .flex-container .right h1 {
+  font-family: "TT Commons DemiBold";
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+#groups .container .flex-container .right h2 {
+  max-width: 447px;
+  font-family: "TT Commons Medium";
+  color: #747792;
+  font-size: 18px;
+  margin-top: 13px;
+}
+
+#faq {
+  margin-top: 155px;
+}
+
+#faq .container h1 {
+  font-family: "TT Commons DemiBold";
+  font-size: 32px;
+}
+
+#faq .container h2 {
+  font-family: "TT Commons Medium";
+  color: #747792;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+#faq .container .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+#faq .container .flex-container .left {
+  width: 281px;
+}
+
+#faq .container .flex-container .left h3 {
+  font-family: "TT Commons DemiBold";
+  font-size: 28px;
+}
+
+#faq .container .flex-container .left a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 73px;
+  border-radius: 6px;
+  padding: 25px;
+  margin-top: 12px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#faq .container .flex-container .left a:hover {
+  opacity: 0.8;
+}
+
+#faq .container .flex-container .left a:nth-of-type(1) {
+  background: radial-gradient(74.11% 260.96% at 81.85% 0%, #fdbf86 0%, #ff35ae 50%, #8e4aff 100%);
+  margin-top: 24px;
+}
+
+#faq .container .flex-container .left a:nth-of-type(2) {
+  background: radial-gradient(74.11% 260.96% at 81.85% 0%, #48edff 0%, #0c8eff 100%);
+}
+
+#faq .container .flex-container .left a:nth-of-type(3) {
+  background: #111433;
+}
+
+#faq .container .flex-container .left a:nth-of-type(3) p {
+  color: #747792;
+}
+
+#faq .container .flex-container .left a p {
+  font-family: "TT Commons DemiBold";
+  color: white;
+  font-size: 24px;
+  margin-left: 17px;
+}
+
+#faq .container .flex-container .right .panel {
+  max-width: 608px;
+  margin-bottom: 10px;
+  background: #111433;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#faq .container .flex-container .right .panel .panel-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #111433;
+  position: relative;
+  cursor: pointer;
+  padding: 25px 30px;
+  -webkit-transition: background-color 350ms ease-in-out;
+  transition: background-color 350ms ease-in-out;
+}
+
+#faq .container .flex-container .right .panel .panel-header h1 {
+  font-family: "TT Commons DemiBold";
+  font-size: 21px;
+}
+
+#faq .container .flex-container .right .panel .panel-body {
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: max-height 350ms ease-in-out;
+  transition: max-height 350ms ease-in-out;
+}
+
+#faq .container .flex-container .right .panel .panel-body .panel-body-inner {
+  padding: 0 30px 25px 30px;
+}
+
+#faq .container .flex-container .right .panel .panel-body .panel-body-inner p {
+  font-family: "TT Commons Medium";
+  color: #747792;
+  font-size: 18px;
+}
+
+#faq .container .flex-container .right .panel .expand {
+  position: absolute;
+  right: 30px;
+  content: url("../img/plus-icon.svg");
+  -webkit-transition: -webkit-transform 350ms ease-in-out;
+  transition: -webkit-transform 350ms ease-in-out;
+  transition: transform 350ms ease-in-out;
+  transition: transform 350ms ease-in-out, -webkit-transform 350ms ease-in-out;
+}
+
+#faq .container .flex-container .right .panel.open .expand {
+  content: url("../img/minus-icon.svg");
+}
+
+footer {
+  padding: 0 0 80px 0;
+  margin-top: 160px;
+}
+
+footer .divider {
+  max-width: 1165px;
+  height: 2px;
+  background: #1f2346;
+  margin: 0 auto;
+}
+
+footer .container {
+  margin-top: 80px;
+}
+
+footer .container .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .top .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .top .logo-container img {
+  width: 37px;
+}
+
+footer .container .top .logo-container p {
+  font-family: "TT Commons Bold";
+  font-size: 35px;
+  margin-left: 18px;
+}
+
+footer .container .top .logo-container p span {
+  background-color: #f5376c;
+  background-image: radial-gradient(65.33% 146.96% at 69.78% -22.89%, #fea589 0%, #f5376c 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+footer .container .top .icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 78px;
+}
+
+footer .container .top .icon-container img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+footer .container .top .icon-container img:hover {
+  opacity: 0.8;
+}
+
+footer .container .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+footer .container .text-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .container .text-container div h1 {
+  font-family: "TT Commons DemiBold";
+  font-size: 16px;
+}
+
+footer .container .text-container div a {
+  font-family: "TT Commons Medium";
+  color: #747792;
+  font-size: 14px;
+  margin-top: 7px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+footer .container .text-container div a:hover {
+  opacity: 0.8;
+}
+
+footer .container .text-container div a:nth-of-type(1) {
+  margin-top: 13px;
+}
+
+@media (max-width: 1150px) {
+  #interface .container .divider:nth-of-type(1) {
+    display: none;
+  }
+  #interface .container .divider:nth-of-type(2) {
+    display: block !important;
+  }
+  #interface .container .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #interface .container .flex-container .divider {
+    width: 100%;
+    height: 1px;
+    position: unset;
+    top: unset;
+    left: unset;
+    -webkit-transform: none;
+            transform: none;
+    margin: 30px 0;
+  }
+  #interface .container .flex-container .right img {
+    max-width: 100%;
+    -webkit-transform: none;
+            transform: none;
+  }
+  #groups .container .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #groups .container .flex-container .divider {
+    width: 100%;
+    height: 1px;
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 940px) {
+  #faq .container .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 70px;
+  }
+  #faq .container .flex-container .left {
+    width: 100%;
+  }
+  #faq .container .flex-container .right {
+    width: 100%;
+  }
+  #faq .container .flex-container .right .panel {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 675px) {
+  #hero {
+    margin-top: 80px;
+  }
+  #hero .container h1 {
+    font-size: 40px;
+  }
+  #sites .container .grid-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #features .container .grid-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #faq .container .flex-container .right .panel .panel-header h1 {
+    max-width: 80%;
+    font-size: 18px;
+  }
+  footer .container .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+  }
+  footer .container .top .logo-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  footer .container .top .logo-container p {
+    margin-left: 0;
+  }
+  footer .container .text-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
+    text-align: center;
+  }
+}
