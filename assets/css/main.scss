@@ -17,14 +17,14 @@
     text-align: center;
 
     h1 {
-      font-family: "TT Commons Bold";
+      font-weight: bold;
       font-size: 64px;
     }
 
     h2 {
       max-width: 498px;
 
-      font-family: "TT Commons Medium";
+      font-weight: 500;
       color: #747792;
       font-size: 18px;
 
@@ -37,14 +37,14 @@
       background: linear-gradient(90deg, #8e4aff 0%, #db5fff 100%);
       border-radius: 4px;
 
-      font-family: "TT Commons DemiBold";
-      font-size: 18px;
+      font-weight: 600;
+      font-size: 16px;
 
       margin-top: 40px;
     }
 
     h3 {
-      font-family: "TT Commons DemiBold";
+      font-weight: 600;
       color: #747792;
       font-size: 14px;
 
@@ -71,14 +71,14 @@
     text-align: center;
 
     h1 {
-      font-family: "TT Commons DemiBold";
+      font-weight: 600;
       font-size: 32px;
     }
 
     h2 {
       margin-top: 3px;
 
-      font-family: "TT Commons Medium";
+      font-weight: 500;
       color: #747792;
       font-size: 18px;
     }
@@ -109,12 +109,12 @@
 
   .container {
     h1 {
-      font-family: "TT Commons DemiBold";
+      font-weight: 600;
       font-size: 32px;
     }
 
     h2 {
-      font-family: "TT Commons Medium";
+      font-weight: 500;
       color: #747792;
       font-size: 18px;
 
@@ -150,14 +150,14 @@
         }
 
         h3 {
-          font-family: "TT Commons DemiBold";
+          font-weight: 600;
           font-size: 21px;
 
           margin-top: 15px;
         }
 
         p {
-          font-family: "TT Commons Medium";
+          font-weight: 500;
           color: #747792;
           font-size: 18px;
 
@@ -202,7 +202,7 @@
 
       .left {
         h1 {
-          font-family: "TT Commons DemiBold";
+          font-weight: 600;
           font-size: 32px;
 
           margin-top: 20px;
@@ -211,7 +211,7 @@
         h2 {
           max-width: 443px;
 
-          font-family: "TT Commons Medium";
+          font-weight: 500;
           color: #747792;
           font-size: 18px;
 
@@ -260,7 +260,7 @@
 
       .right {
         h1 {
-          font-family: "TT Commons DemiBold";
+          font-weight: 600;
           font-size: 32px;
 
           margin-top: 20px;
@@ -269,7 +269,7 @@
         h2 {
           max-width: 447px;
 
-          font-family: "TT Commons Medium";
+          font-weight: 500;
           color: #747792;
           font-size: 18px;
 
@@ -286,12 +286,12 @@
 
   .container {
     h1 {
-      font-family: "TT Commons DemiBold";
+      font-weight: 600;
       font-size: 32px;
     }
 
     h2 {
-      font-family: "TT Commons Medium";
+      font-weight: 500;
       color: #747792;
       font-size: 18px;
 
@@ -309,7 +309,7 @@
         width: 281px;
 
         h3 {
-          font-family: "TT Commons DemiBold";
+          font-weight: 600;
           font-size: 28px;
         }
 
@@ -358,7 +358,7 @@
           }
 
           p {
-            font-family: "TT Commons DemiBold";
+            font-weight: 600;
             color: white;
             font-size: 24px;
 
@@ -391,7 +391,7 @@
             transition: background-color 350ms ease-in-out;
 
             h1 {
-              font-family: "TT Commons DemiBold";
+              font-weight: 600;
               font-size: 21px;
             }
           }
@@ -405,7 +405,7 @@
               padding: 0 30px 25px 30px;
 
               p {
-                font-family: "TT Commons Medium";
+                font-weight: 500;
                 color: #747792;
                 font-size: 18px;
               }
@@ -460,7 +460,7 @@ footer {
         }
 
         p {
-          font-family: "TT Commons Bold";
+          font-weight: bold;
           font-size: 35px;
 
           margin-left: 18px;
@@ -509,12 +509,12 @@ footer {
         flex-direction: column;
 
         h1 {
-          font-family: "TT Commons DemiBold";
+          font-weight: 600;
           font-size: 16px;
         }
 
         a {
-          font-family: "TT Commons Medium";
+          font-weight: 500;
           color: #747792;
           font-size: 14px;
 

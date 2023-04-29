@@ -24,13 +24,13 @@
 }
 
 #hero .container h1 {
-  font-family: "TT Commons Bold";
+  font-weight: bold;
   font-size: 64px;
 }
 
 #hero .container h2 {
   max-width: 498px;
-  font-family: "TT Commons Medium";
+  font-weight: 500;
   color: #747792;
   font-size: 18px;
   margin-top: 22px;
@@ -42,13 +42,13 @@
   background: -webkit-gradient(linear, left top, right top, from(#8e4aff), to(#db5fff));
   background: linear-gradient(90deg, #8e4aff 0%, #db5fff 100%);
   border-radius: 4px;
-  font-family: "TT Commons DemiBold";
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
   margin-top: 40px;
 }
 
 #hero .container h3 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   color: #747792;
   font-size: 14px;
   margin-top: 13px;
@@ -82,13 +82,13 @@
 }
 
 #sites .container h1 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   font-size: 32px;
 }
 
 #sites .container h2 {
   margin-top: 3px;
-  font-family: "TT Commons Medium";
+  font-weight: 500;
   color: #747792;
   font-size: 18px;
 }
@@ -119,12 +119,12 @@
 }
 
 #features .container h1 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   font-size: 32px;
 }
 
 #features .container h2 {
-  font-family: "TT Commons Medium";
+  font-weight: 500;
   color: #747792;
   font-size: 18px;
   margin-top: 5px;
@@ -163,13 +163,13 @@
 }
 
 #features .container .grid-container div h3 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   font-size: 21px;
   margin-top: 15px;
 }
 
 #features .container .grid-container div p {
-  font-family: "TT Commons Medium";
+  font-weight: 500;
   color: #747792;
   font-size: 18px;
   margin-top: 8px;
@@ -214,14 +214,14 @@
 }
 
 #interface .container .flex-container .left h1 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   font-size: 32px;
   margin-top: 20px;
 }
 
 #interface .container .flex-container .left h2 {
   max-width: 443px;
-  font-family: "TT Commons Medium";
+  font-weight: 500;
   color: #747792;
   font-size: 18px;
   margin-top: 13px;
@@ -268,14 +268,14 @@
 }
 
 #groups .container .flex-container .right h1 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   font-size: 32px;
   margin-top: 20px;
 }
 
 #groups .container .flex-container .right h2 {
   max-width: 447px;
-  font-family: "TT Commons Medium";
+  font-weight: 500;
   color: #747792;
   font-size: 18px;
   margin-top: 13px;
@@ -286,12 +286,12 @@
 }
 
 #faq .container h1 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   font-size: 32px;
 }
 
 #faq .container h2 {
-  font-family: "TT Commons Medium";
+  font-weight: 500;
   color: #747792;
   font-size: 18px;
   margin-top: 6px;
@@ -315,7 +315,7 @@
 }
 
 #faq .container .flex-container .left h3 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   font-size: 28px;
 }
 
@@ -357,7 +357,7 @@
 }
 
 #faq .container .flex-container .left a p {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   color: white;
   font-size: 24px;
   margin-left: 17px;
@@ -387,7 +387,7 @@
 }
 
 #faq .container .flex-container .right .panel .panel-header h1 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   font-size: 21px;
 }
 
@@ -403,7 +403,7 @@
 }
 
 #faq .container .flex-container .right .panel .panel-body .panel-body-inner p {
-  font-family: "TT Commons Medium";
+  font-weight: 500;
   color: #747792;
   font-size: 18px;
 }
@@ -464,7 +464,7 @@ footer .container .top .logo-container img {
 }
 
 footer .container .top .logo-container p {
-  font-family: "TT Commons Bold";
+  font-weight: bold;
   font-size: 35px;
   margin-left: 18px;
 }
@@ -522,12 +522,12 @@ footer .container .text-container div {
 }
 
 footer .container .text-container div h1 {
-  font-family: "TT Commons DemiBold";
+  font-weight: 600;
   font-size: 16px;
 }
 
 footer .container .text-container div a {
-  font-family: "TT Commons Medium";
+  font-weight: 500;
   color: #747792;
   font-size: 14px;
   margin-top: 7px;
